@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SDET_Training">
+  <test thread-count="5" name="Today_Test">
+  <parameter name="browser" value="firefox"/>
+  <parameter name="city" value="mumbai" />
+ <!--  <groups>
+  	<run>
+  		<include name="regression"/>
+  	</run>
+  </groups> -->
+  	<classes>
+  		<class name="testng.AssertionsClass"></class>
+  	</classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
